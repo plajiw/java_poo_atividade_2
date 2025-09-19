@@ -6,9 +6,7 @@ public class ItemCura extends Item {
         this.quantidadeCura = quantidadeCura;
     }
 
-    @Override
     public void aplicar(Pokemon pokemon) {
-        super.aplicar(pokemon);
         System.out.println("Cura aplicada: +" + quantidadeCura + " HP");
     }
 }

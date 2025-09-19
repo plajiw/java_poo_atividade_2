@@ -4,9 +4,7 @@ public class ItemEvolucao extends Item {
         super(nome, efeito);
     }
 
-    @Override
     public void aplicar(Pokemon pokemon) {
-        super.aplicar(pokemon);
         System.out.println("Aplicado item de evolução no " + pokemon.nome);
     }
 }
